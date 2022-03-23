@@ -86,7 +86,6 @@ export default {
             }),
           });
           let data = await res.json();
-          console.log(data);
           if(data.error) {
             this.error = true;
             this.errorMessage = data.errores.map(e => e).join(', ');
