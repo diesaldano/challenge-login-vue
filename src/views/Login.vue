@@ -29,4 +29,10 @@ export default {
   justify-content: center;
   align-items: center;
 }
+  @media (max-width: 425px) {
+    .cintelinkBg {
+      background-image: none;
+      background-color: white;
+    }
+  }
 </style>
