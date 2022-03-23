@@ -1,19 +1,21 @@
 # login-challenge
 this a challenge for Cintelink enterprise. In this case, the requirements is use 
-the Vue js for create a login box. 
-
--I Used library Vuetify UI
+the Vue js for create a login box. Used library Vuetify UI.
 
 Requiriments: Develop a Login page according to the design and API provided.
+<br>
 ● A Login page must be developed from the design in Figma with some
 frontend framework (preferably Vue.js).
+<br>
 ● After login, you should be redirected to a simple page, with the text “Login Ok” if the
 access is successful. If access fails, the text “Username or password
 Incorrect” on the same page as shown in the layout.
+<br>
 ● Validations:
     ○ Username: Must be between 3 and 20 characters. must contain only
     letters (Spanish, English, Portuguese characters), numbers and period (.).
     ○ Password: Must be at least 8 characters.
+<br>
 ● It must work correctly with a strict CSP policy (both script and
 style).
 
